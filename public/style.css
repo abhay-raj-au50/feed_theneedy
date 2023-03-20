@@ -1,0 +1,205 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 120px;
+}
+
+
+/* input[type="submit"] {
+    background-color: rgb(86, 86, 202);
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 56px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 15px;
+} */
+
+input[type="submit"] {
+    width: 120px;
+    height: 56px;
+    color: white;
+    background-color: rgb(86, 86, 202);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+.aboutus {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#item1 {
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border-radius: 55px;
+}
+
+#item1 h5 {
+    margin-left: 95px;
+    margin-top: 3px;
+}
+
+#item1 img {
+    height: 120px;
+    width: 110px;
+    margin-left: 75px;
+    border-radius: 100px;
+}
+
+#item2 {
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(107, 107, 235);
+    color: white;
+    border-radius: 55px;
+}
+
+#item2 h5 {
+    margin-left: 95px;
+}
+
+#item2 img {
+    height: 120px;
+    width: 110px;
+    margin-left: 75px;
+    border-radius: 120px;
+}
+
+#item3 {
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 55px;
+}
+
+#item3 h5 {
+    margin-left: 105px;
+}
+
+#item3 img {
+    height: 120px;
+    width: 110px;
+    margin-left: 75px;
+    border-radius: 100px;
+}
+
+input[type="reset"] {
+    width: 120px;
+    height: 56px;
+    color: white;
+    background-color: rgb(86, 86, 202);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#meet1 {
+    border: 2px solid black;
+    background-color: rgb(161, 114, 161);
+    border-radius: 100px;
+}
+
+#meet1:hover {
+    background-color: black;
+    color: white;
+}
+
+#meet2 {
+    border: 2px solid black;
+    background-color: rgb(161, 114, 161);
+    border-radius: 100px;
+}
+
+#meet2:hover {
+    background-color: black;
+    color: white;
+}
+
+#meet3 {
+    border: 2px solid black;
+    background-color: rgb(161, 114, 161);
+    border-radius: 100px;
+}
+
+#meet3:hover {
+    background-color: black;
+    color: white;
+}
+
+#meet4 {
+    border: 2px solid black;
+    background-color: rgb(161, 114, 161);
+    border-radius: 100px;
+}
+
+#meet4:hover {
+    background-color: black;
+    color: white;
+}
+
+.cardbody a {
+    text-decoration: none;
+    color: white;
+}
+
+.hellojava a {
+    text-decoration: none;
+    color: rgb(251, 239, 239);
+    background-color: rgb(43, 39, 31);
+}
